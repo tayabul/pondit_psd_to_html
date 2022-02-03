@@ -1,0 +1,73 @@
+/* header media quary start */
+
+@media screen and (max-width:280px) {
+    header .container .row .header_text{
+        width: 100%;
+        text-align: center;
+    }
+    header .container .row .logo{
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+    header .container .row .login{
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+    header .container .row .login p{
+        padding-left: 450px;
+    }
+    header .container .row .login .btn{
+        margin-right: 450px;
+    }
+    header  nav{
+        width: 1160px;
+    }
+}
+
+@media screen and (min-width:281px) and (max-width:720px){
+    header .container .row .header_text{
+        width: 50%;
+        text-align: center;
+    }
+    header .container .row .logo{
+        width: 50%;
+        text-align: center;
+        padding: 30px;
+    }
+    header .container .row .login{
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+    header .container .row .login p{
+        padding-left: 450px;
+    }
+    header .container .row .login .btn{
+        margin-right: 450px;
+    }
+    header  nav{
+        width: 1170px;
+    }
+}
+
+@media screen and (min-width:721px) and (max-width:1170px){
+    header .container .row .header_text{
+        width:33.33%;
+        padding-left: 50px;
+    }
+    header .container .row .logo{
+        width:33.33%;
+    }
+    header .container .row .login{
+        width:33.33%;
+        padding-left: 150px;
+    }
+    header  nav{
+        width: 1170px;
+    }
+    header  nav .container li{
+        margin-right: 20px;
+    }
+}
