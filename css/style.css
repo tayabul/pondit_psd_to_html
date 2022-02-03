@@ -329,4 +329,37 @@ header nav .container li a p{
     font-family: 'Roboto', sans-serif;
     line-height: 30px;
 }
+#explore .container .explore_text p i{
+    padding-right: 10px;
+    font-size: 10px;
+}
+#explore .container .explore_text p:nth-child(4){
+    padding: 25px 0 10px 0;
+}
+#explore .container{
+    position: relative;
+}
+#explore .container .explore_img img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#explore .container .explore_img img:last-child{
+    position: absolute;
+    top: 166px;
+    right: 29px;
+}
+#explore .container .explore_img img:nth-child(2){
+    position: absolute;
+    right: 519px;
+    top: 254px;
+    height: 242px;
+}
+#explore .container .explore_img img:first-child{
+    right: 169px;
+    top: 282px;
+    width: 500px;
+    height: 275px;
+
+}
 /* career path to explore style end */
