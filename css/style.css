@@ -353,13 +353,123 @@ header nav .container li a p{
     position: absolute;
     right: 519px;
     top: 254px;
-    height: 242px;
+    height: 190px;
 }
 #explore .container .explore_img img:first-child{
     right: 169px;
-    top: 282px;
+    top: 235px;
     width: 500px;
     height: 275px;
-
 }
-/* career path to explore style end */
+/* Career path to explore style end */
+
+/* Assess yourself style start */
+#assess_yourself .container{
+    position: relative;
+}
+#assess_yourself .container h2{
+    color: #0288d1;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 190px;
+    right: 188px;
+}
+#assess_yourself .container .col-6{
+    width: 50%;
+    float: left;
+}
+#assess_yourself .container .col-6 > img:first-child{
+    position: absolute;
+    top: 205px;
+    left: 20px;
+}
+#assess_yourself .container .col-6 img:nth-child(2){
+    position: absolute;
+    top: 304px;
+    left: 110px;
+}
+#assess_yourself .container .col-6 img:last-child{
+    padding-top: 355px;
+    padding-left: 114px;
+}
+#assess_yourself .container .col-6 .top_row{
+    padding-top: 355px;
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+#assess_yourself .container .col-6 .top_row video{
+    width: 160px;
+    height: 90px;
+    float: left;
+    clear: both;
+    margin-right: 30px;
+}
+#assess_yourself .container .col-6 .top_row .top_row_text h3{
+    color: #637280;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+}
+#assess_yourself .container .col-6 .top_row .top_row_text p{
+    color: #637280;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#assess_yourself .container .col-6 .top_row .top_row_text p:nth-child(2){
+    padding-bottom: 4px;
+}
+#assess_yourself .container .col-6 .mid_row{
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+#assess_yourself .container .col-6 .mid_row > img{
+    float: left;
+    margin-right: 30px;
+}
+#assess_yourself .container .col-6 .mid_row .mid_row_text h3{
+    color: #637280;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+}
+#assess_yourself .container .col-6 .mid_row .mid_row_text p{
+    color: #637280;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#assess_yourself .container .col-6 .mid_row .mid_row_text p:nth-child(2){
+    padding-bottom: 4px;
+}
+#assess_yourself .container .col-6 .bottom_row{
+    overflow: hidden;
+}
+#assess_yourself .container .col-6 .bottom_row > img{
+    float: left;
+    margin-right: 30px;
+}
+#assess_yourself .container .col-6 .bottom_row .bottom_row_text h3{
+    color: #637280;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+}
+#assess_yourself .container .col-6 .mibottom_rowd_row .bottom_row_text p{
+    color: #637280;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#assess_yourself .container .col-6 .bottom_row .bottom_row_text p:nth-child(2){
+    padding-bottom: 4px;
+}
+/* Assess Yourself style end */
+
+
+
+
+
+
+
+
+
+
