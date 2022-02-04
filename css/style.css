@@ -19,19 +19,23 @@
 header{
     position: relative;
 }
+
 header .header_bg_img{
     position: absolute;
     left: 500px;
 }
+
 header .container{
     width: 1140px;
     margin: auto;
     padding: 25px 0;
 }
+
 header .container .row{
     width: 100%;
     overflow: hidden;
 }
+
 header .container .row .header_text{
     float: left;
     width: 33.33%;
@@ -41,17 +45,20 @@ header .container .row .header_text{
     font-family: 'Nunito', sans-serif;
     word-spacing: 4px;
 }
+
 header .container .row .logo{
     float: left;
     width: 33.33%;
     padding-left: 180px;
 }
+
 header .container .row .login{
     width: 33.33%;
     float: right;
     padding-left: 200px;
     padding-top: 20px;
 }
+
 header .container .row .login p{
     float: left;
     color: #637280;
@@ -59,6 +66,7 @@ header .container .row .login p{
     font-family: 'Roboto', sans-serif;
     padding: 15px 15px 0 0;
 }
+
 header .container .row .login .btn{
     background-color: #fff;
     color: #0288d1;
@@ -67,16 +75,20 @@ header .container .row .login .btn{
     border: 1px solid #0288d1;
     padding: 15px 20px;
     border-radius: 40px;
+    cursor: pointer;
 }
+
 header  nav{
     background-color: #ebebeb;
     height: 50px;
     border: 1px solid #d7d7d7;
 }
+
 header  nav .container{
     text-align: center;
     padding-top: 0;
 }
+
 header  nav .container li{
     list-style: none;
     display: inline-flex;
@@ -86,6 +98,7 @@ header  nav .container li{
     padding-bottom: 9px;
     border-right: 1px solid #d7d7d7;
 }
+
 header nav .container li:hover p{
     color: #0288d1;
 }
@@ -95,16 +108,18 @@ header nav .container li:hover p{
 header  nav .container li:first-child{
     border-left: 1px solid #d7d7d7;
 }
+
 header nav .container li a{
     text-decoration: none;
     display: inline-flex;
-    
 }
+
 header nav .container li a img{
     width: 35px;
     height: 30px;
     margin-right: 15px;
 }
+
 header nav .container li a p{
     color: #000;
     font-size: 16px;
@@ -117,37 +132,46 @@ header nav .container li a p{
 #header_bottom .header_bottom_bg{
     position: relative;
 }
+
 #header_bottom {
     position: relative;
 }
+
 #header_bottom .header_bottom_bg img{
     width: 100%;
 }
+
 #header_bottom .header_bottom_bg .deshes_long_line{
     position: absolute;
     top: 130px;
     left: -236px;
 }
+
 #header_bottom .header_bottom_bg .deshes_long_line img{
     width: 100%;
 }
+
 #header_bottom .container .brown{
     float: left;
 }
+
 #header_bottom .container .brown .brown_text h2{
     font-size: 18px;
     color: #e99619;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 15px;
 }
+
 #header_bottom .container .brown .brown_text p{
     font-family: 'Roboto', sans-serif;
     padding-bottom: 7px;
 }
+
 #header_bottom .container .brown .brown_text p a{
     text-decoration: none ;
     color: #0288d1;
 }
+
 #header_bottom .container .brown .brown_design_dashes .right_dashes{
     width: 0px;
     height: 100px;
@@ -156,11 +180,13 @@ header nav .container li a p{
     top: 192px;
     left: 182px;
 }
+
 #header_bottom .container .brown .brown_text{
     position: absolute;
     top: 95px;
     left: 201px;
 }
+
 #header_bottom .container .brown >img:nth-child(3){
     position: absolute;
     top: 286px;
@@ -168,29 +194,35 @@ header nav .container li a p{
     width: 130px;
     height: 130px;
 }
+
 #header_bottom .container .brown >img:last-child{
     position: absolute;
     top: 340px;
     left: 164px;
 }
+
 #header_bottom .container .brown .brown_design_dashes img{
     position: absolute;
     top: 92px;
     left: 177px;
 }
+
 #header_bottom .container .red{
     float: left;
 }
+
 #header_bottom .container .red h2{
     font-size: 18px;
     color: #ea493d;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 15px;
 }
+
 #header_bottom .container .red p{
     font-family: 'Roboto', sans-serif;
     padding-bottom: 7px;
 }
+
 #header_bottom .container .red .red_design_dashes .right_dashes{
     width: 0px;
     height: 93px;
@@ -199,11 +231,13 @@ header nav .container li a p{
     top: 138px;
     left: 483px;
 }
+
 #header_bottom .container .red .red_text{
     position: absolute;
     top: 57px;
     left: 505px;
 }
+
 #header_bottom .container .red >img:nth-child(3){
     position: absolute;
     top: 226px;
@@ -211,28 +245,34 @@ header nav .container li a p{
     width: 130px;
     height: 130px;
 }
+
 #header_bottom .container .red >img:last-child{
     position: absolute;
     top: 281px;
     left: 468px;
 }
+
 #header_bottom .container .red .red_design_dashes img{
     position: absolute;
     top: 43px;
     left: 478px;
 }
+
 #header_bottom .container .blue{
     float: left;
 }
+
 #header_bottom .container .blue .blue_text h2{
     font-size: 18px;
     color: #00bcd4;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 15px;
 }
+
 #header_bottom .container .blue .blue_text p i{
     padding-right: 7px;
 }
+
 #header_bottom .container .blue .blue_text p{
     font-family: 'Roboto', sans-serif;
     padding-bottom: 7px;
@@ -245,11 +285,13 @@ header nav .container li a p{
     bottom: 114px;
     right: 557px;
 }
+
  #header_bottom .container .blue .blue_text{
     position: absolute;
     bottom: 14px;
     right: 586px;
 }
+
 #header_bottom .container .blue >img:nth-child(2){
     position: absolute;
     bottom: 140px;
@@ -257,29 +299,35 @@ header nav .container li a p{
     width: 130px;
     height: 130px;
 }
+
 #header_bottom .container .blue >img:nth-child(3){
     position: absolute;
     bottom: 187px;
     right: 538px;
 }
+
 #header_bottom .container .blue .blue_design_dashes img{
     position: absolute;
     bottom: 14px;
     right: 552px;
 }
+
 #header_bottom .container .green{
     float: left;
 }
+
 #header_bottom .container .green h2{
     font-size: 18px;
     color: #3bcc3b;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 15px;
 }
+
 #header_bottom .container .green p{
     font-family: 'Roboto', sans-serif;
     padding-bottom: 7px;
 }
+
 #header_bottom .container .green .green_design_dashes .right_dashes{
     width: 0px;
     height: 149px;
@@ -294,6 +342,7 @@ header nav .container li a p{
     bottom: 150px;
     right: 239px;
 }
+
  #header_bottom .container .green >img:nth-child(2){
     position: absolute;
     top: 103px;
@@ -301,11 +350,13 @@ header nav .container li a p{
     width: 130px;
     height: 130px;
 }
+
 #header_bottom .container .green >img:nth-child(3){
     position: absolute;
     top: 153px;
     right: 216px;
 }
+
 #header_bottom .container .green .green_design_dashes img{
     position: absolute;
     bottom: 144px;
@@ -324,37 +375,45 @@ header nav .container li a p{
     line-height: 50px;
     text-transform: uppercase;
 }
+
 #explore .container .explore_text p{
     color: #637280;
     font-family: 'Roboto', sans-serif;
     line-height: 30px;
 }
+
 #explore .container .explore_text p i{
     padding-right: 10px;
     font-size: 10px;
 }
+
 #explore .container .explore_text p:nth-child(4){
     padding: 25px 0 10px 0;
 }
+
 #explore .container{
     position: relative;
 }
+
 #explore .container .explore_img img{
     position: absolute;
     right: 0;
     top: 0;
 }
+
 #explore .container .explore_img img:last-child{
     position: absolute;
     top: 166px;
     right: 29px;
 }
+
 #explore .container .explore_img img:nth-child(2){
     position: absolute;
     right: 519px;
     top: 254px;
     height: 190px;
 }
+
 #explore .container .explore_img img:first-child{
     right: 169px;
     top: 235px;
@@ -367,6 +426,7 @@ header nav .container li a p{
 #assess_yourself .container{
     position: relative;
 }
+
 #assess_yourself .container h2{
     color: #0288d1;
     font-size: 28px;
@@ -375,90 +435,163 @@ header nav .container li a p{
     top: 190px;
     right: 188px;
 }
+
 #assess_yourself .container .col-6{
     width: 50%;
     float: left;
 }
+
 #assess_yourself .container .col-6 > img:first-child{
     position: absolute;
     top: 205px;
     left: 20px;
 }
+
 #assess_yourself .container .col-6 img:nth-child(2){
     position: absolute;
     top: 304px;
     left: 110px;
 }
+
 #assess_yourself .container .col-6 img:last-child{
     padding-top: 355px;
     padding-left: 114px;
 }
+
 #assess_yourself .container .col-6 .top_row{
     padding-top: 355px;
     overflow: hidden;
     padding-bottom: 25px;
+    position: relative;
 }
-#assess_yourself .container .col-6 .top_row video{
+
+#assess_yourself .container .col-6 .top_row .videos video{
     width: 160px;
     height: 90px;
     float: left;
     clear: both;
     margin-right: 30px;
 }
+
+#assess_yourself .container .col-6 .top_row .videos .video_icon i{
+    position: absolute;
+    top: 390px;
+    right: 480px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+#assess_yourself .container .col-6 .top_row .videos:hover video{
+    opacity: 50%;
+}
+
+#assess_yourself .container .col-6 .top_row .videos:hover .video_icon i{
+    display: block;
+}
+
 #assess_yourself .container .col-6 .top_row .top_row_text h3{
     color: #637280;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 20px;
 }
+
 #assess_yourself .container .col-6 .top_row .top_row_text p{
     color: #637280;
     font-family: 'Roboto', sans-serif;
-    
 }
+
 #assess_yourself .container .col-6 .top_row .top_row_text p:nth-child(2){
     padding-bottom: 4px;
 }
+
 #assess_yourself .container .col-6 .mid_row{
     overflow: hidden;
     padding-bottom: 25px;
+    position: relative;
 }
-#assess_yourself .container .col-6 .mid_row > img{
+
+#assess_yourself .container .col-6 .mid_row .images > img{
     float: left;
     margin-right: 30px;
 }
+
+#assess_yourself .container .col-6 .mid_row .images .image_icon i{
+    position: absolute;
+    top: 30px;
+    right: 475px;
+    font-size: 25px;
+    font-size: 25px;
+    color: #fff;
+    display: none;
+}
+
+#assess_yourself .container .col-6 .mid_row .images:hover img{
+    opacity: 50%;
+}
+
+#assess_yourself .container .col-6 .mid_row .images:hover .image_icon i{
+    display: block;
+}
+
 #assess_yourself .container .col-6 .mid_row .mid_row_text h3{
     color: #637280;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 20px;
 }
+
 #assess_yourself .container .col-6 .mid_row .mid_row_text p{
     color: #637280;
     font-family: 'Roboto', sans-serif;
     
 }
+
 #assess_yourself .container .col-6 .mid_row .mid_row_text p:nth-child(2){
     padding-bottom: 4px;
 }
+
 #assess_yourself .container .col-6 .bottom_row{
     overflow: hidden;
+    position: relative;
 }
-#assess_yourself .container .col-6 .bottom_row > img{
+
+#assess_yourself .container .col-6 .bottom_row .documents > img{
     float: left;
     margin-right: 30px;
 }
+
+#assess_yourself .container .col-6 .bottom_row .documents .dorument_icon i{
+    position: absolute;
+    top: 30px;
+    right: 475px;
+    font-size: 25px;
+    font-size: 25px;
+    color: #fff;
+    display: none;
+}
+
+#assess_yourself .container .col-6 .bottom_row .documents:hover img{
+    opacity: 50%;
+}
+
+#assess_yourself .container .col-6 .bottom_row .documents:hover .dorument_icon i{
+    display: block;
+}
+
 #assess_yourself .container .col-6 .bottom_row .bottom_row_text h3{
     color: #637280;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 20px;
 }
-#assess_yourself .container .col-6 .mibottom_rowd_row .bottom_row_text p{
+
+#assess_yourself .container .col-6 .bottom_row .bottom_row_text p{
     color: #637280;
     font-family: 'Roboto', sans-serif;
-    
 }
+
 #assess_yourself .container .col-6 .bottom_row .bottom_row_text p:nth-child(2){
     padding-bottom: 4px;
 }
