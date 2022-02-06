@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Patrick+Hand&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 *{
@@ -445,6 +446,7 @@ header nav .container li a p{
     position: absolute;
     top: 205px;
     left: 20px;
+    z-index: 1;
 }
 
 #assess_yourself .container .col-6 img:nth-child(2){
@@ -555,6 +557,7 @@ header nav .container li a p{
 #assess_yourself .container .col-6 .bottom_row{
     overflow: hidden;
     position: relative;
+    padding-bottom: 110px;
 }
 
 #assess_yourself .container .col-6 .bottom_row .documents > img{
@@ -597,9 +600,199 @@ header nav .container li a p{
 }
 /* Assess Yourself style end */
 
+/* learning skills style start */
+ #learning_skills {
+    position: relative;
+}
+
+#learning_skills > img{
+    width: 100%;
+}
+#learning_skills .arrow_line img{
+    position: absolute;
+    top: 884px;
+    right: 157px;
+}
+
+#learning_skills .container h2{
+    color: #0288d1;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 25px;
+    position: absolute;
+    top: 870px;
+    left: 442px;
+}
+
+#learning_skills .container > p{
+    color: #637280;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 938px;
+    left: 325px;
+}
+#learning_skills .container > p:nth-child(3){
+    position: absolute;
+    top: 965px;
+    left: 585px;
+} 
+
+#learning_skills .container .col-6{
+    width: 50%;
+    float: left;
+}
+
+#learning_skills .container .col-6 > img{
+    position: absolute;
+    top: 1110px;
+    right: 225px;
+    width: 375px;
+}
+
+#learning_skills .container .col-6 .carousel_inner .carousel_item h3{
+    color: #0288d1;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    width: 155px;
+    padding-left: 15px;
+    float: left;
+    padding-top: 40px;
+}
+
+#learning_skills .container .col-6 .carousel_inner .carousel_item{
+    position: relative;
+}
+
+#learning_skills .container .col-6 .carousel_inner .carousel_item .carousel_caption{
+    position: absolute;
+    top: 55px;
+    left: 49px;
+}
+
+#learning_skills .container .col-6 .carousel_inner .carousel_item .left_state_line{
+    height: 40px;
+    border-left: 4px solid #0288d1;
+    float: left;
+    margin-top: 42px;
+}
+
+#learning_skills .container .col-6 .carousel_inner .carousel_item .right_state_line{
+    height: 125px;
+    border-left: 4px solid #0288d1;
+    margin-left: 48px;
+    float: left;
+}
+
+#learning_skills .container .col-6 .carousel_inner .carousel_item .carousel_caption img{
+    padding-left: 120px;
+}
+
+#learning_skills .container .col-6 .carousel_inner .carousel_item .carousel_caption p{
+    color: #637280;
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    width: 274px;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 51px;padding-top: 15px;
+    padding-right: 51px;
+    float: right;
+}
+
+#learning_skills{
+    position: relative;
+}
+
+#learning_skills .container .col-6 .carousel_inner .carousel_item {
+    position: absolute;
+    top: 1074px;
+    left: 111px;
+}
+/* learning skills style end */
+
+/* Success Student style start */
+
+#success_student > img{
+    padding-top: 62px;
+    margin-left: -104px;
+}
+
+#success_student{
+    position: relative;
+}
+
+#success_student .container .jhon_deo{
+    height: 260px;
+    width: 445px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 20px #e8ecef;
+    position: absolute;
+    top: 110px;
+    left: 150px;
+}
+
+#success_student .container .jhon_deo img{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    float: left;
+}
+
+#success_student .container .jhon_deo h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-bottom: 12px;
+    padding-top: 28px;
+}
+
+#success_student .container .jhon_deo p{
+    color: #637280;
+    font-family: 'Roboto', sans-serif;
+}
+
+#success_student .container .jhon_deo p:nth-child(3){
+    padding-bottom: 30px;
+}
+#success_student .container .jhon_deo p:nth-child(4){
+    padding-left: 40px;
+    padding-right: 5px;
+    line-height: 22px;
+}
+
+#success_student .container .jhon_deo i{    
+    width: 30px;
+    height: 30px;
+    border: 1px solid #637280;
+    border-radius: 50%;
+    padding-left: 7px;
+    padding-top: 6px;
+}
+
+#success_student .container .jhon_deo i:hover{
+    /* background-color: rgb(118, 171, 221); */
+    background-color: #0288d1;
+    color: #fff;
+}
+
+#success_student .container .jhon_deo .profile{
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+#success_student .container .right_part{
+    position: absolute;
+    top: 176px;
+    right: 311px;
+}
+#success_student .container .right_part h2{
+    color: #0288d1;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+}
 
 
-
+/* Success Student style end */
 
 
 
